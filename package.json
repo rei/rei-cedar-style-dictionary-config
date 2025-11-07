@@ -1,0 +1,55 @@
+{
+  "name": "@rei/cedar-style-dictionary-config",
+  "version": "1.0.0",
+  "description": "REI Cedar Style Dictionary configuration package with transforms, formats, filters, and actions",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --skipLibCheck --excludeFiles '**/node_modules/**'",
+    "prepublishOnly": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "style-dictionary",
+    "design-tokens",
+    "rei",
+    "cedar"
+  ],
+  "author": "REI Software Engineering",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rei/rei-cedar-style-dictionary-config.git"
+  },
+  "peerDependencies": {
+    "style-dictionary": "^4.0.0"
+  },
+  "dependencies": {
+    "@divriots/style-dictionary-to-figma": "^0.4.0",
+    "@tokens-studio/sd-transforms": "^1.2.2",
+    "concat": "^1.0.3",
+    "fs-extra": "^11.2.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.10.6",
+    "style-dictionary": "^4.0.1",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">= 20.0.0",
+    "npm": ">= 10.0.0"
+  }
+}

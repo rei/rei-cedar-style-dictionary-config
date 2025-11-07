@@ -1,0 +1,10 @@
+export { deprecated } from './attribute/deprecated.js';
+export { pxToRemTransitive } from './size/px-to-rem.js';
+export { space } from './size/space.js';
+export { spaceJs } from './size/space-js.js';
+export { dpTransitive } from './size/dp-transitive.js';
+export { stripPx } from './size/strip-px.js';
+export { stripAllPx } from './size/strip-all-px.js';
+export { stripAllPxJs } from './size/strip-all-px-js.js';
+export { float } from './size/float.js';
+export { cssClamp } from './size/clamp.js';
