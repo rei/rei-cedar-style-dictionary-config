@@ -1,4 +1,4 @@
-import type { PlatformConfig } from '../types.js';
+import type { PlatformConfig } from '../types';
 
 export const createCssConfig = (buildPath: string, prefix = 'cdr', showFileHeader = false): Record<string, PlatformConfig> => ({
   css: {

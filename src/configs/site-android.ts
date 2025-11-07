@@ -1,4 +1,4 @@
-import type { PlatformConfig } from '../types.js';
+import type { PlatformConfig } from '../types';
 
 export const createSiteAndroidConfig = (buildPath: string, prefix = 'cdr', showFileHeader = false): Record<string, PlatformConfig> => ({
   siteAndroid: {
@@ -17,7 +17,7 @@ export const createSiteAndroidConfig = (buildPath: string, prefix = 'cdr', showF
     ],
     files: [
       {
-        destination: 'android.json',
+        destination: 'androidon',
         format: 'site',
         filter: 'remove-source-tokens'
       }

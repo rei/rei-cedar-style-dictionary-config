@@ -1,4 +1,4 @@
-import type { PlatformConfig, UtilityFilesConfig } from '../types.js';
+import type { PlatformConfig, UtilityFilesConfig } from '../types';
 
 export const createLessConfig = (
   buildPath: string, 

@@ -1,4 +1,4 @@
-import type { PlatformConfig } from '../types.js';
+import type { PlatformConfig } from '../types';
 
 export const createSiteGlobalConfig = (buildPath: string, prefix = 'cdr', showFileHeader = false): Record<string, PlatformConfig> => ({
   siteGlobal: {
@@ -18,7 +18,7 @@ export const createSiteGlobalConfig = (buildPath: string, prefix = 'cdr', showFi
     ],
     files: [
       {
-        destination: 'global.json',
+        destination: 'globalon',
         format: 'site',
         filter: 'remove-source-tokens'
       }

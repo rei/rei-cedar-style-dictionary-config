@@ -1,4 +1,4 @@
-export { concatFiles } from './concat-files.js';
+export { concatFiles } from './concat-files';
 export {
   createIncludeUtilityAction,
   includeDisplayScss,
@@ -8,4 +8,4 @@ export {
   includeDisplayLess,
   includeMediaQueriesLess,
   includeContainerQueriesLess
-} from './include-utilities.js';
+} from './include-utilities';

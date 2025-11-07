@@ -2,16 +2,16 @@ import type StyleDictionary from 'style-dictionary';
 import { register } from '@tokens-studio/sd-transforms';
 
 // Import transforms
-import * as transforms from './transforms/index.js';
+import * as transforms from './transforms';
 
 // Import formats
-import * as formats from './formats/index.js';
+import * as formats from './formats';
 
 // Import filters
-import * as filters from './filters/index.js';
+import * as filters from './filters';
 
 // Import actions
-import * as actions from './actions/index.js';
+import * as actions from './actions';
 
 /**
  * Registers all Cedar-specific transforms, formats, filters, and actions

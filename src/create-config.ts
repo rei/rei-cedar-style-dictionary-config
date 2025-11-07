@@ -1,5 +1,5 @@
 import type StyleDictionary from 'style-dictionary';
-import type { CreateConfigOptions } from './types.js';
+import type { CreateConfigOptions } from './types';
 import { 
   createCssConfig, 
   createScssConfig, 
@@ -12,7 +12,7 @@ import {
   createSiteWebConfig,
   createSiteAndroidConfig,
   createSiteIosConfig
-} from './configs/index.js';
+} from './configs';
 
 /**
  * Creates a Style Dictionary configuration for the specified platform

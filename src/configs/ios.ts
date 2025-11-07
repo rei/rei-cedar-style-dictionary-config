@@ -1,5 +1,5 @@
-import type { PlatformConfig } from '../types.js';
-import { filterSourceTokensAndType } from '../utils.js';
+import type { PlatformConfig } from '../types';
+import { filterSourceTokensAndType } from '../utils';
 
 export const createIosConfig = (buildPath: string, prefix = 'cdr', showFileHeader = false): Record<string, PlatformConfig> => ({
   ios: {

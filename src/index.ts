@@ -1,6 +1,6 @@
 // Main exports
-export { createConfig } from './create-config.js';
-export { registerAllExtensions } from './register.js';
+export { createConfig } from './create-config';
+export { registerAllExtensions } from './register';
 
 // Export types
 export type { 
@@ -9,10 +9,10 @@ export type {
   PlatformConfig,
   CedarToken,
   TransformConfig
-} from './types.js';
+} from './types';
 
 // Export utilities
-export { BASE_FONT_SIZE, filterSourceTokensAndType } from './utils.js';
+export { BASE_FONT_SIZE, filterSourceTokensAndType } from './utils';
 
 // Export individual config creators (for advanced use)
 export {
@@ -27,10 +27,10 @@ export {
   createSiteWebConfig,
   createSiteAndroidConfig,
   createSiteIosConfig
-} from './configs/index.js';
+} from './configs';
 
 // Export all transforms, formats, filters, and actions for direct use
-export * as transforms from './transforms/index.js';
-export * as formats from './formats/index.js';
-export * as filters from './filters/index.js';
-export * as actions from './actions/index.js';
+export * as transforms from './transforms';
+export * as formats from './formats';
+export * as filters from './filters';
+export * as actions from './actions';

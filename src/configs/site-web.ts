@@ -1,4 +1,4 @@
-import type { PlatformConfig } from '../types.js';
+import type { PlatformConfig } from '../types';
 
 export const createSiteWebConfig = (buildPath: string, prefix = 'cdr', showFileHeader = false): Record<string, PlatformConfig> => ({
   siteWeb: {
@@ -19,7 +19,7 @@ export const createSiteWebConfig = (buildPath: string, prefix = 'cdr', showFileH
     ],
     files: [
       {
-        destination: 'web.json',
+        destination: 'webon',
         format: 'site',
         filter: 'remove-source-tokens'
       }

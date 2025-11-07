@@ -1,6 +1,6 @@
 import type StyleDictionary from 'style-dictionary';
 import _ from 'lodash';
-import type { CedarToken } from '../types.js';
+import type { CedarToken } from '../types';
 
 export const scssMixin = (sd: typeof StyleDictionary): void => {
   sd.registerFormat({

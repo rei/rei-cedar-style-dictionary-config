@@ -1,4 +1,4 @@
-import type { PlatformConfig } from '../types.js';
+import type { PlatformConfig } from '../types';
 
 export const createSiteIosConfig = (buildPath: string, prefix = 'cdr', showFileHeader = false): Record<string, PlatformConfig> => ({
   siteIos: {
@@ -17,7 +17,7 @@ export const createSiteIosConfig = (buildPath: string, prefix = 'cdr', showFileH
     ],
     files: [
       {
-        destination: 'ios.json',
+        destination: 'ioson',
         format: 'site',
         filter: 'remove-source-tokens'
       }

@@ -1,4 +1,4 @@
-import type { PlatformConfig } from '../types.js';
+import type { PlatformConfig } from '../types';
 
 export const createFigmaConfig = (buildPath: string, prefix = 'cdr', showFileHeader = false): Record<string, PlatformConfig> => ({
   figma: {
@@ -15,7 +15,7 @@ export const createFigmaConfig = (buildPath: string, prefix = 'cdr', showFileHea
     ],
     files: [
       {
-        destination: 'figma.json',
+        destination: 'figmaon',
         format: 'figma'
       }
     ]

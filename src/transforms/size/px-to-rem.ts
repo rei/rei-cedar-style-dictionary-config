@@ -1,6 +1,6 @@
 import type StyleDictionary from 'style-dictionary';
-import type { TransformConfig } from '../../types.js';
-import { BASE_FONT_SIZE } from '../../utils.js';
+import type { TransformConfig } from '../../types';
+import { BASE_FONT_SIZE } from '../../utils';
 
 export const pxToRemTransitive = (sd: typeof StyleDictionary): void => {
   sd.registerTransform({

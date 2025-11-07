@@ -1,5 +1,5 @@
 import type StyleDictionary from 'style-dictionary';
-import type { CedarToken } from '../../types.js';
+import type { CedarToken } from '../../types';
 
 export const spaceJs = (sd: typeof StyleDictionary): void => {
   sd.registerTransform({
