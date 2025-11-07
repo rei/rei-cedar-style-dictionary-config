@@ -15,7 +15,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc --skipLibCheck --excludeFiles '**/node_modules/**'",
+    "build": "tsc --skipLibCheck",
     "prepublishOnly": "npm run build",
     "watch": "tsc --watch"
   },
